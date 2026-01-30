@@ -38,7 +38,7 @@ The dataset contains **real-world data science job information from 2023**, prov
 ### 📉 Charts
 
 #### 📊 Data Science Job Salaries – Bar Chart
-![Salary by Job Title](Salary_Dashboard_Chart1.png)
+![Salary by Job Title](1_Salary_Dashboard_Chart1.png)
 
 - 🛠️ **Excel Features:** Bar chart with formatted salary values and optimized layout  
 - 🎨 **Design Choice:** Horizontal bar chart for easy comparison  
@@ -48,7 +48,7 @@ The dataset contains **real-world data science job information from 2023**, prov
 ---
 
 #### 🗺️ Country Median Salaries – Map Chart
-![Country Median Salaries](1_Salary_Dashboard_Chart2.png)
+![Country Median Salaries](1_Salary_Dashboard_Country_Map.gif)
 
 - 🛠️ **Excel Features:** Excel Map Chart to plot global median salaries  
 - 🎨 **Design Choice:** Color-coded map to distinguish salary levels  
@@ -58,16 +58,5 @@ The dataset contains **real-world data science job information from 2023**, prov
 
 ---
 
-## 🧮 Formulas and Functions
-
-### 💰 Median Salary by Job Title
-```excel
-=MEDIAN(
-IF(
-    (jobs[job_title_short]=A2)*
-    (jobs[job_country]=country)*
-    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])) )*
-    (jobs[salary_year_avg]<>0),
-    jobs[salary_year_avg]
-)
-)
+Conclusion
+I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
