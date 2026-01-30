@@ -1,6 +1,6 @@
 # 📊 Excel Salary Dashboard
 
-![Salary Dashboard Preview](1_Salary_Dashboard.png)
+![Salary Dashboard Preview](1_Salary_Dashboard_Final_Dashboard.gif)
 
 ## 📌 Introduction
 This **Data Jobs Salary Dashboard** was created to help job seekers explore salary trends across data-related roles and ensure they are being fairly compensated.
