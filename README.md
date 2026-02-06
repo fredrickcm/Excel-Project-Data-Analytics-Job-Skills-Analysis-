@@ -5,7 +5,7 @@
 ## 📌 Introduction
 This **Data Jobs Salary Dashboard** was created to help job seekers explore salary trends across data-related roles and ensure they are being fairly compensated.
 
-The project is based on data from my **Excel course**, which focuses on building a strong foundation in data analysis using Excel. The dataset includes detailed information on job titles, salaries, locations, and required skills, all visualized in an interactive dashboard .
+The project is based on data from my 2023 Job Postings availavle in the **DATASETS Folder**, which focuses on building a strong foundation in data analysis using Excel. The dataset includes detailed information on job titles, salaries, locations, and required skills, all visualized in an interactive dashboard .
 
 ---
 
